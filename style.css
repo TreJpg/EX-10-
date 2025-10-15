@@ -1,5 +1,50 @@
-*{
-  margin: 0;
-  padding: 0;
+
+
+html {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0 12px 24px 12px;
+  line-height: 1.2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #111;
+  background: #fff;
+  text-align: left;
+}
+
+main, header, nav, .post-header, .story, .story-img, .intro, .post-content {
+  height: 100%;
+  float: left;
+  width: 100%;
+  margin: 3;
+  padding: 0;
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+.story-img {
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
