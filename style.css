@@ -1,50 +1,141 @@
-
-
-html {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0 12px 24px 12px;
-  line-height: 1.2;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
-  color: #111;
-  background: #fff;
-  text-align: left;
+html {
+  background-color: rgb(13, 24, 52);
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #a7a9be;
+  line-height: 1.5;
 }
 
-main, header, nav, .post-header, .story, .story-img, .intro, .post-content {
-  height: 100%;
+.site-header {
+  width: 100vw;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #0f0e17;
+  background-color: #dbcb38;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 6px;
+  letter-spacing: 0.5px;
+  z-index: 10;
+}
+
+.site-nav a {
+  padding: 0 10px;
+  display: inline;
+  color: #000080;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: #701111;
+}
+
+.site-title {
+  font-weight: 700;
   float: left;
-  width: 89%;
-  margin: 3;
-  padding: 0;
-  text-align: left;
 }
 
-nav {
-  display: flex;
-  gap: 19px;
-  align-items: center;
+main {
+  position: relative;
+  top: 80px;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto 100px;
+  padding: 0 25px;
 }
 
-.story-img {
-  display: block;
-  margin: 0;
-  max-width: 100%;
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 5px;
+  color: #fffffe;
+}
+
+.hero {
+  width: 100%;
   height: auto;
 }
 
+.jump {
+  width: 90vw;
+  position: sticky;
+  top: 200px;
+}
 
+.scare {
+  height: 150px;
+  width: auto;
+  float: right;
+}
 
+.story {
+  margin-top: 20px;
+}
 
+p {
+  text-align: left;
+  padding: 10px 0;
+}
 
+em {
+  font-style: italic;
+  color: #fffffe;
+}
 
+a {
+  color: #dbcb38;
+}
 
+a:hover {
+  color: #f25f4c;
+  text-decoration: none;
+}
 
+.story-header {
+  margin: 30px 0 20px;
+  text-align: left;
+}
 
+.byline {
+  font-style: italic;
+  color: #dbcb38;
+  text-align: left;
+  margin-bottom: 20px;
+}
 
+.story-img {
+  text-align: center;
+  margin: 20px 0;
+}
 
+.story-img img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #dbcb38;
+}
 
+.story-source {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  margin-top: 40px;
+  color: #ffd700;
+  text-align: center;
+}
 
+.story-source a {
+  color: #dbcb38;
+}
+
+.story-source a:hover {
+  color: #ffd700;
+}
