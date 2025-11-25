@@ -65,6 +65,7 @@ h1 {
   position: sticky;
   top: 200px;
   float: right;
+  margin-right: 20px;
   z-index: 5;
 }
 
