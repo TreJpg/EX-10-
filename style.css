@@ -67,9 +67,10 @@ h1 {
 }
 
 .jump {
-  width: 90vw;
   position: sticky;
   top: 200px;
+  float: right;
+  z-index: 5;
 }
 
 .scare {
